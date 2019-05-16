@@ -40,7 +40,7 @@ public Map<String,Trip> findTrip(String keyword){
 		List<Photo> photos = tripList.get(nametrip).getPhotos();
 		for (Photo photo : photos) {
 			if (photo.getComment().contains(keyword)) {
-				foundTrips.put(nametrip,tripList.get(nametrip));;
+				foundTrips.put(nametrip,tripList.get(nametrip));
 			}
 		}
 	}
